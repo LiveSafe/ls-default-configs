@@ -1,6 +1,6 @@
 {
   "name": "ls-default-configs",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Default shared config files for LiveSafe node projects",
   "main": "ls-default-configs.js",
   "scripts": {
@@ -17,5 +17,15 @@
     "gulp-jshint": "^1.9.0",
     "jshint-stylish": "^1.0.0",
     "ls-lodash": "^1.0.0"
-  }
+  },
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:LiveSafe/ls-default-configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LiveSafe/ls-default-configs/issues"
+  },
+  "homepage": "https://github.com/LiveSafe/ls-default-configs"
 }
