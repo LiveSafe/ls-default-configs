@@ -1,6 +1,15 @@
 'use strict';
 
+var _ = require('ls-lodash'),
+    jsHintRcBase = require('./.jshintrc.json');
+
 module.exports = {
-  jshintrc: require('./.jshintrc.json'),
-  jscsrc: require('./.jscs.json')
+    jshintrc: jsHintRcBase,
+    jshintrcTestDir: _.merge({}, jsHintRcBase, {
+        globals: {
+            describe: true,
+            it: true
+        }
+    }),
+    jscsrc: require('./.jscs.json')
 };
