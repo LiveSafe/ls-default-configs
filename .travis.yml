@@ -10,3 +10,7 @@ deploy:
   email: mc.s.pain.how.er+npm@gmail.com
   api_key:
     secure: SWsoKeIVDGWWisyjU1PsRM/WMju6bKn4PVIO4FmnePPiflPLdbuFd5jmZAAdRhsVWI9lmy4TEwgNM7vbCsiHiUO7sRCmGi3qWduxbgocNoDazu6Sr8KaNZHer8CUpUaf5mcNBDSnVHULXqb8tBe3DrDr2TyouGhSsPxl2pLjcSo=
+  on: 
+    tags: true
+    all_branches: true
+    repo: LiveSafe/ls-lodash
