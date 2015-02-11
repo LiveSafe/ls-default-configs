@@ -13,4 +13,4 @@ deploy:
   on: 
     tags: true
     all_branches: true
-    repo: LiveSafe/ls-deafult-configs
+    repo: LiveSafe/ls-default-configs
