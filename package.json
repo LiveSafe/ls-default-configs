@@ -1,6 +1,6 @@
 {
   "name": "ls-default-configs",
-  "version": "2.2.2",
+  "version": "2.3.0",
   "description": "Default shared config files for LiveSafe node projects",
   "main": "ls-default-configs.js",
   "scripts": {

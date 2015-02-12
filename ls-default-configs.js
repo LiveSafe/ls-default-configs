@@ -7,6 +7,10 @@ module.exports = {
     jshintrc: jsHintRcBase,
     jshintrcTestDir: _.merge({}, jsHintRcBase, {
         globals: {
+            after: true,
+            afterEach: true,
+            before: true,
+            beforeEach: true,
             describe: true,
             it: true
         }
